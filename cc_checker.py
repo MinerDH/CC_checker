@@ -122,7 +122,7 @@ with open(file_open,'r') as file:
           
           hh = cliid.text
           if 'rejected' in hh :
-            print ('chack ip request rejected ')
+            print ('check ip request rejected ')
             exit()
           jk = json.loads(hh)
 
